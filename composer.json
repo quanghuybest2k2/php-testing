@@ -1,0 +1,17 @@
+{
+    "name": "quang/testing",
+    "autoload": {
+        "psr-4": {
+            "Quang\\Testing\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Doan Quang Huy",
+            "email": "quanghuybest@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
