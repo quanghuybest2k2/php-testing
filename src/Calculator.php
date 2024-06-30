@@ -8,4 +8,11 @@ class Calculator
     {
         return $number1 + $number2;
     }
+    public function canAddTwoNumber($number1, $number2): bool
+    {
+        if (is_numeric($number1) && is_numeric($number2)) {
+            return true;
+        }
+        return false;
+    }
 }
